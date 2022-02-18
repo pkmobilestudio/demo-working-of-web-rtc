@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <title>WebRTC Demo</title>
+
+    <script src="../scripts/jquery-3.4.1.min.js"></script>
+    <script src="demo.js"></script>
+
+    <script>
+        $(function () {
+            Demo.init();
+        });
+    </script>
+</head>
+<body bgcolor="#c2c0c3">
+
+    <!--start Header-->
+    <table id ="header" border ="0" width="100%" cellpading="0" cellspacing="0" bgcolor="#f9721b">
+        <tr>
+            <td>
+                <table border ="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                    <tr>
+                        <td>
+                            <font face="arial" color="YELLOW" size="5">
+                               <span  class="fa fa-user-circle" aria-hidden="true"></span> 
+                                PKMOBILESTUDIO</font>
+                        </td>
+                        <td width="20%">&nbsp;</td>
+                        <td>
+                            <a href="../index.html"><font face="arial" color="white" size="4">Home</font></a>
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--end Header-->
+    <!--START HOME-->
+    <table id ="home" border ="1" width="100%" cellpading="0" cellspacing="0" bgcolor="#c2c0c3">
+        <tr>
+            <td>
+                <table border ="0" width="85%" cellpadding="15" cellspacing="0" align="center">
+                    <tr>
+                        <td align="center" valign="middle">
+                            <h3>
+                                <font face="arial" color="#292929" size="6">
+                            
+                                 WELCOME TO MY WEBSITE</font>
+                            <h3>
+                                <h2>
+                                    <font face="arial" color="red" size="6">
+                            
+                                        P K MOBILESTUDIO</font>
+                                </h2>
+
+                        </td>
+                    </tr>
+
+                </table>
+            </td>
+        </tr>
+    </table>
+    <!--end Home-->
+    
+    <audio autoplay muted controls id="audioCtr"></audio>
+    <br>
+    <br>
+    <button id="btnMuteUnmute">Mute</button>
+    <button id="btnStartReco">Start Recording</button>
+    <button id="btnPauseReco" style="display:none">Pause</button>
+    <button id="btnResumeReco" style="display:none">Resume</button>
+    <button id="btnStopReco" style="display:none">Stop</button>
+    <a href="" id="downloadRecording" style="display:none">Download</a>
+    
+    
+</body>
+</html>
